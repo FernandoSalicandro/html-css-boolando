@@ -19,22 +19,35 @@ img {
 
 .flex {
     display: flex;
-    width:100%;
+    width:80%;
 }
 
 /* UTILITIES */
 .col-30 {
+    position: relative;
     width: 33%;
     margin-bottom: 20px;
     border: 1px solid green;
 }
 
+.absolute {
+    position:absolute;
+    top:0 ;
+}
+/* .z-1 {
+    z-index: 1;
+}
+
+.z-0 {
+z-index: 0;
+} */
 /* CARD SECTION  */
 #cards {
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-
-
+.col-30 img {
+    display: block;
+}
 
