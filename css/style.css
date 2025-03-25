@@ -19,7 +19,22 @@ img {
 
 .flex {
     display: flex;
+    width:100%;
+}
+
+/* UTILITIES */
+.col-30 {
+    width: 33%;
+    margin-bottom: 20px;
+    border: 1px solid green;
 }
 
 /* CARD SECTION  */
+#cards {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
 
