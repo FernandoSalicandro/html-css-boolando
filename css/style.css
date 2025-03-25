@@ -11,8 +11,15 @@ img {
 /* COMMON */
 
 .container {
-    width: 80;
+    width: 80%;
     margin: 0 auto;
     /* DEBUG */
     border: 1px dashed black
 }
+
+.flex {
+    display: flex;
+}
+
+/* CARD SECTION  */
+
