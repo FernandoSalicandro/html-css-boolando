@@ -32,7 +32,7 @@ img {
 
 .absolute {
     position:absolute;
-    top:0 ;
+    top:0;
 }
 
 .z-1 {
@@ -48,19 +48,30 @@ img {
 .col-30 img {
     display: block;
 }
-.col-30 img:first-child {
+.col-30: img:first-child {
     z-index: 1;
     position:relative;
 }
 
-.col-30 img:last-child {
+.col-30: img:last-child {
     z-index: 0;
-    position:absolute
+    position:absolute;
+
 }
 
+
+/* REGOLE IMAGE HOVER */
 .col-30:hover img:last-child {
     z-index: 2;
 }
-
-/* REGOLE IMAGE HOVER */
+.heart-label {
+    display: block;
+    background-color: white;
+    position:absolute;
+    left: 81%;
+    bottom: 85%;
+    padding-left:10px;
+    padding-right: 10px;
+    z-index: 1;
+}
 
