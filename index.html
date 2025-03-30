@@ -6,64 +6,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boolando</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
     <!-- STICKY HEADER NAV -->
-    <HEADER></HEADER>
+    <header class="header">
+        <div div class="nav container flex">
+            <!-- left nav -->
+            <ul class="nav-left-links flex">
+                <li><a href="">Donna</li></a>
+                <li><a href="">Uomo</li></a>
+                <li><a href="">Bambini</li></a>
+            </ul>
+            <!-- fine left nav -->
+
+
+
+            <!-- center nav -->
+            <img src="./img/boolean-logo.png" alt="" class="flex nav-center">
+            <!-- fine center nav -->
+
+
+            <!-- right nav -->
+            <ul class="flex nav-right-links">
+                <li><a href=""><i class="fa-regular fa-user hover-icon-color"></i></li></a>
+                <li><a href=""><i class="fa-regular fa-heart hover-icon-color"></i></li></a>
+                <li><a href=""><i class="fa-solid fa-bag-shopping hover-icon-color"></i></li></a>
+            </ul>
+            <!-- fine right nav -->
+        </div>
+
+
+    </header>
     <!-- FINE STICKY HEADER NAV -->
 
     <!-- MAIN CONTENT -->
     <main>
-        <!-- CARD SECTION -->
-        <section id=cards class="flex container">
-            <div class="col-30">
-                
-                <img src="./img/1.webp" alt="Maglia Levis" class="">
-                <img src="./img/1b.webp" alt="Maglia Levis con Giacca" class="absolute">
-                <span class="heart-label">&hearts;</span>
-            </div>
-            <div class="col-30">
-                <!-- immagine 3 
-                immagine 4 -->
-                <img src="./img/2.webp" alt="Maglia Levis" class="">
-                <img src="./img/2b.webp" alt="Maglia Levis con Giacca" class="absolute">
-            </div>
+        <!--CARD SECTION -->
+        <div class="card-section container flex wrap justify-between pb-80">
+            <div class="card">
+                <img src="./img/1.webp" alt="" class="hover">
+                <img src="./img/1b.webp" alt="" class="none">
+                <span class="card-tags">&hearts;</span>
+                <span class="discount-tag">50%</span>
+                <span class="eco-tag">Sostenibilità</span>
+                <div class="fig-caption-title">Levi's</div>
+                <div class="fig-caption">Relaxed FIT TEE UNISEX</div>
+                <span><strong class="price pr-10">14.99&euro;</strong><del>29.99&euro;</del></span>
 
-            <div class="col-30">
-                <!-- immagine 5
-                immagine 6 -->
-                <img src="./img/3.webp" alt="Maglia Levis" class="">
-                <img src="./img/3b.webp" alt="Maglia Levis con Giacca" class="absolute">
             </div>
-
-            <div class="col-30"><!-- immagine 1 
-                    immagine 2 -->
-                <img src="./img/4.webp" alt="Maglia Levis" class="">
-                <img src="./img/4b.webp" alt="Maglia Levis con Giacca" class="absolute">
+            
+            
+            <div class="card">
+                <img src="./img/2.webp" alt="" class="hover">
+                <img src="./img/2b.webp" alt="" class="none">
+                <span class="card-tags">&hearts;</span>
+                <span class="discount-tag">50%</span>
+                <!-- <span class="eco-tag">Sostenibilità</span> -->
+                <div class="fig-caption-title">Guess</div>
+                <div class="fig-caption">ROSES TEE</div>
+                <span><strong class="price pr-10">20.99&euro;</strong><del>29.99&euro;</del></span>
             </div>
-
-            <div class="col-30">
-                <!-- immagine 1 
-                immagine 2 -->
-                <img src="./img/5.webp" alt="Maglia Levis" class="">
-                <img src="./img/5b.webp" alt="Maglia Levis con Giacca" class="absolute">
+            
+            <div class="card">
+                <img src="./img/3.webp" alt="" class="hover">
+                <img src="./img/3b.webp" alt="" class="none">
+                <span class="card-tags">&hearts;</span>
+                <span class="discount-tag">50%</span>
+                <!-- <span class="eco-tag">Sostenibilità</span> -->
+                <div class="fig-caption-title">Come Zucchero Filato</div>
+                <div class="fig-caption">VOGLIA DI COLORI PASTELLO</div>
+                <span><strong class="price pr-10">129.99&euro;</strong><del>184.99&euro;</del></span>
             </div>
-
-            <div class="col-30"><!-- immagine 1 
-                            immagine 2 -->
-                <img src="./img/6.webp" alt="Maglia Levis" class="">
-                <img src="./img/6b.webp" alt="Maglia Levis con Giacca" class="absolute">
+            
+            <div class="card">
+                <img src="./img/4.webp" alt="" class="hover">
+                <img src="./img/4b.webp" alt="" class="none">
+                <span class="card-tags">&hearts;</span>
+                <span class="discount-tag">50%</span>
+                <span class="eco-tag">Sostenibilità</span>
+                <div class="fig-caption-title">Levi's</div>
+                <div class="fig-caption">TEE UNISEX</div>
+                <span><strong class="price pr-10">14.99&euro;</strong><del>29.99&euro;</del></span>
             </div>
-        </section>
+            
+            <div class="card">
+                <img src="./img/5.webp" alt="" class="hover">
+                <img src="./img/5b.webp" alt="" class="none">
+                <span class="card-tags">&hearts;</span>
+                <!-- <span class="discount-tag">50%</span> -->
+                <!-- <span class="eco-tag">Sostenibilità</span> -->
+                <div class="fig-caption-title">Maya Deluxe</div>
+                <div class="fig-caption">STRIPE BODICE</div>
+                <span><strong class="price pr-10">99.99&euro;</strong><del></del></span>
+            </div>
+            
+            <div class="card">
+                <img src="./img/6.webp" alt="" class="hover">
+                <img src="./img/6b.webp" alt="" class="none">
+                <span class="card-tags">&hearts;</span>
+                <span class="eco-tag left">Sostenibilità</span>
+                <div class="fig-caption-title">Esprit</div>
+                <div class="fig-caption">MAGLIONE - BLACK</div>
+                <span><strong class="price pr-10">29.99&euro;</strong><del></del></span>
 
+            </div>
+        </div>
         <!-- FINE CARD SECTION -->
     </main>
     <!-- FINE MAIN CONTENT -->
 
     <!-- FOOTER -->
-    <footer></footer>
-    <!-- FINE FOOTER -->
+    <footer class="footer">
+        <div class="container flex justify-between">
+            <div class="footer-nav-left">
+                <h4>Boolando S.r.l</h4>
+                <div class="footer-nav-list-left">
+                    <ul class="flex gap">
+                        <li><a href="#">Informazioni Legali</a></li>
+                        <li><a href="#">Informativa sulla Privacy</a></li>
+                        <li><a href="#">Dirittto di recesso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-nav-right">
+                <h4>Trovaci anche su</h4>
+                <div class="footer-nav-list-right">
+                    <ul class="flex gap">
+                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>    <!-- FINE FOOTER -->
 </body>
 
 </html>
